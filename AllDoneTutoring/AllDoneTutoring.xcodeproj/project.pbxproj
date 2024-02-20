@@ -14,6 +14,9 @@
 		E8F0B1FD2B854464006661E5 /* AllDoneTutoringTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F0B1FC2B854464006661E5 /* AllDoneTutoringTests.swift */; };
 		E8F0B2072B854464006661E5 /* AllDoneTutoringUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F0B2062B854464006661E5 /* AllDoneTutoringUITests.swift */; };
 		E8F0B2092B854464006661E5 /* AllDoneTutoringUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F0B2082B854464006661E5 /* AllDoneTutoringUITestsLaunchTests.swift */; };
+		E8F0B2192B8553E4006661E5 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F0B2182B8553E4006661E5 /* LoginView.swift */; };
+		E8F0B21E2B8554BB006661E5 /* SignupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F0B21D2B8554BB006661E5 /* SignupView.swift */; };
+		E8F0B2202B855883006661E5 /* BackgroundGradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F0B21F2B855883006661E5 /* BackgroundGradientView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +47,9 @@
 		E8F0B2022B854464006661E5 /* AllDoneTutoringUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AllDoneTutoringUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8F0B2062B854464006661E5 /* AllDoneTutoringUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllDoneTutoringUITests.swift; sourceTree = "<group>"; };
 		E8F0B2082B854464006661E5 /* AllDoneTutoringUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllDoneTutoringUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E8F0B2182B8553E4006661E5 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		E8F0B21D2B8554BB006661E5 /* SignupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupView.swift; sourceTree = "<group>"; };
+		E8F0B21F2B855883006661E5 /* BackgroundGradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundGradientView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +100,9 @@
 		E8F0B1EA2B854462006661E5 /* AllDoneTutoring */ = {
 			isa = PBXGroup;
 			children = (
+				E8F0B2172B85478B006661E5 /* Model */,
+				E8F0B2152B85477B006661E5 /* View */,
+				E8F0B2162B854782006661E5 /* ViewModel */,
 				E8F0B1EB2B854462006661E5 /* AllDoneTutoringApp.swift */,
 				E8F0B1ED2B854462006661E5 /* ContentView.swift */,
 				E8F0B1EF2B854463006661E5 /* Assets.xcassets */,
@@ -125,6 +134,46 @@
 				E8F0B2082B854464006661E5 /* AllDoneTutoringUITestsLaunchTests.swift */,
 			);
 			path = AllDoneTutoringUITests;
+			sourceTree = "<group>";
+		};
+		E8F0B2152B85477B006661E5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E8F0B21A2B855473006661E5 /* Utils */,
+				E8F0B21C2B8554AB006661E5 /* Authentication */,
+				E8F0B2182B8553E4006661E5 /* LoginView.swift */,
+				E8F0B21D2B8554BB006661E5 /* SignupView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E8F0B2162B854782006661E5 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		E8F0B2172B85478B006661E5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E8F0B21A2B855473006661E5 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				E8F0B21F2B855883006661E5 /* BackgroundGradientView.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		E8F0B21C2B8554AB006661E5 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Authentication;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,7 +306,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E8F0B21E2B8554BB006661E5 /* SignupView.swift in Sources */,
+				E8F0B2192B8553E4006661E5 /* LoginView.swift in Sources */,
 				E8F0B1EE2B854462006661E5 /* ContentView.swift in Sources */,
+				E8F0B2202B855883006661E5 /* BackgroundGradientView.swift in Sources */,
 				E8F0B1EC2B854462006661E5 /* AllDoneTutoringApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
