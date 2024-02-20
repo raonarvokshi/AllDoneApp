@@ -14,6 +14,10 @@ struct LoginView: View {
         // ZStack (Layers on top of the other layers)
         ZStack {
             BackgroundGradientView()
+            
+            VStack {
+                LogoView()
+            }
         }
     }
 }
